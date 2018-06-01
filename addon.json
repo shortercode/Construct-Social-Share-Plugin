@@ -1,0 +1,26 @@
+﻿{
+	"is-c3-addon": true,
+	"type": "plugin",
+	"name": "Social Sharing",
+	"id": "CordovaSocialSharing",
+	"version": "1.0.0.4",
+	"author": "shortercode",
+	"website": "https://github.com/shortercode",
+	"documentation": "https://www.construct.net",
+	"description": "Example custom Construct 3 plugin.",
+	"editor-scripts": [
+						"plugin.js",
+						"type.js",
+						"instance.js"
+					],
+	"file-list": [
+		"c2runtime/runtime.js",
+		"lang/en-US.json",
+		"aces.json",
+		"addon.json",
+		"icon.svg",
+		"instance.js",
+		"plugin.js",
+		"type.js"
+	]
+}

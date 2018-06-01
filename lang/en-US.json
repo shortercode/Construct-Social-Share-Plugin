@@ -1,0 +1,66 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for Social Sharing Plugin.",
+	"text": {
+		"plugins": {
+			"cordovasocialsharing": {
+				"name": "SocialSharingPlugin",
+				"description": "Thin wrapper over the cordova social sharing plugin.",
+				"help-url": "https://www.construct.net",
+				"properties": {},
+				"aceCategories": {
+					"cordovasocialsharing": "Social Sharing"
+				},
+				"conditions": {},
+				"actions": {
+					"share": {
+						"list-name": "Share",
+						"display-text": "Share Subject: {1} Text: {0} URL: {2}",
+						"description": "Trigger mobile share action with text, subject and url",
+						"params": {
+							"text": {
+								"name": "Message",
+								"desc": "Text to share"
+							},
+							"subject": {
+								"name": "Subject",
+								"desc": "Subject to share"
+							},
+							"url": {
+								"name": "URL",
+								"desc": "URL to share"
+							}
+						}
+					},
+					"share-text-with-subject": {
+						"list-name": "Share text and subject",
+						"display-text": "Share Subject: {1} Text: {0}",
+						"description": "Trigger mobile share action with text and subject",
+						"params": {
+							"text": {
+								"name": "Message",
+								"desc": "Text to share"
+							},
+							"subject": {
+								"name": "Subject",
+								"desc": "Subject to share"
+							}
+						}
+					},
+					"share-text": {
+						"list-name": "Share Text",
+						"display-text": "Share Text: {0}",
+						"description": "Trigger mobile share action with text",
+						"params": {
+							"text": {
+								"name": "Message",
+								"desc": "Text to share"
+							}
+						}
+					}
+				},
+				"expressions": {}
+			}
+		}
+	}
+}

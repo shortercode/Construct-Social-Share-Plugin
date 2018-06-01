@@ -1,0 +1,33 @@
+{
+	"cordovasocialsharing": {
+		"conditions": [
+		],
+		"actions": [
+			{
+				"id": "share",
+				"scriptName": "Share",
+				"params": [
+					{ "id": "text", "type": "string" },
+					{ "id": "subject", "type": "string" },
+					{ "id": "url", "type": "string" }
+				]
+			},
+			{
+				"id": "share-text",
+				"scriptName": "ShareText",
+				"params": [
+					{ "id": "text", "type": "string" }
+				]
+			},
+			{
+				"id": "share-text-with-subject",
+				"scriptName": "ShareTextWithSubject",
+				"params": [
+					{ "id": "text", "type": "string" },
+					{ "id": "subject", "type": "string" }
+				]
+			}
+		],
+		"expressions": []
+	}
+}
