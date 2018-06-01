@@ -3,7 +3,7 @@
 	"type": "plugin",
 	"name": "Social Sharing",
 	"id": "CordovaSocialSharing",
-	"version": "1.0.0.4",
+	"version": "1.0.1.0",
 	"author": "shortercode",
 	"website": "https://github.com/shortercode",
 	"documentation": "https://www.construct.net",

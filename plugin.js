@@ -12,7 +12,7 @@
 	const PLUGIN_ID = "CordovaSocialSharing";
 	////////////////////////////////////////////
 	
-	const PLUGIN_VERSION = "1.0.0.4";
+	const PLUGIN_VERSION = "1.0.1.0";
 	const PLUGIN_CATEGORY = "general";
 	
 	const PLUGIN_CLASS = SDK.Plugins.CordovaSocialSharing = class MyCustomPlugin extends SDK.IPluginBase
