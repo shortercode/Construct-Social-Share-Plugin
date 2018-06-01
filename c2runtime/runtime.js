@@ -14,9 +14,9 @@ cr.plugins_.CordovaSocialSharing = function(runtime)
 (function ()
 {
 	function share (o) {
-		var exists = window.plugins && plugins.socialsharing && plugins.socialsharing.share;
+		var exists = window["plugins"] && window["plugins"]["socialsharing"] && window["plugins"]["socialsharing"]["share"];
 		if (exists)
-			window.plugins.socialsharing.share(o);
+			window["plugins"]["socialsharing"]["share"](o);
 	}
 	
 	var pluginProto = cr.plugins_.CordovaSocialSharing.prototype;
