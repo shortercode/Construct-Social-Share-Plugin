@@ -13,10 +13,16 @@ cr.plugins_.CordovaSocialSharing = function(runtime)
 
 (function ()
 {
-	function share (o) {
+	function share (str) {
 		var exists = window["plugins"] && window["plugins"]["socialsharing"] && window["plugins"]["socialsharing"]["share"];
 		if (exists)
-			window["plugins"]["socialsharing"]["share"](o);
+			window["plugins"]["socialsharing"]["share"](str);
+	}
+	
+	function shareWithOptions (o) {
+		var exists = window["plugins"] && window["plugins"]["socialsharing"] && window["plugins"]["socialsharing"]["share"];
+		if (exists)
+			window["plugins"]["socialsharing"]["shareWithOptions"](o);
 	}
 	
 	var pluginProto = cr.plugins_.CordovaSocialSharing.prototype;
@@ -91,7 +97,7 @@ cr.plugins_.CordovaSocialSharing = function(runtime)
 	
 	Acts.prototype.Share = function (msg, subject, url)
 	{
-		share({
+		shareWithOptions({
 			"message": msg,
 			"subject": subject,
 			"url": url
